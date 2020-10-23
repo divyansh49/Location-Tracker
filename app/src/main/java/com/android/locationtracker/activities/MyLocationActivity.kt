@@ -56,6 +56,20 @@ class MyLocationActivity : AppCompatActivity() {
 
         }
 
+        btnshare.setOnClickListener {
+
+            val whatsappIntent = Intent(Intent.ACTION_SEND)
+            whatsappIntent.type = "text/plain"
+            whatsappIntent.setPackage("com.whatsapp")
+            whatsappIntent.putExtra(Intent.EXTRA_TEXT, "Latitude : $lat and Longitude : $lng")
+            try {
+                startActivity(whatsappIntent)
+            } catch (ex: ActivityNotFoundException) {
+                Toast.makeText(this,"WhatsApp has not been installed.",Toast.LENGTH_SHORT).show()
+            }
+
+        }
+
     }
 
     private fun locationUpdates() {
