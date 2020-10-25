@@ -10,4 +10,4 @@ An Android application which tracks your location and provides a convenient meth
 5. Submit a pull request :D
 
 ## Screenshots
-<img src="https://github.com/divyansh49/Location-Tracker/blob/master/MainActivity.jpg" alt="MainActivity" width="250" height="400">         <img src="https://github.com/divyansh49/Location-Tracker/blob/master/StatsActivity.jpg" alt="StatsActivity" width="250" height="400">
+<img src="https://github.com/divyansh49/Location-Tracker/blob/master/MainActivity.jpg" alt="MainActivity" width="250" height="400"> <img src="https://github.com/divyansh49/Location-Tracker/blob/master/MyLocationActivity.jpg" alt="MyLocationActivity" width="250" height="400"> <img src="https://github.com/divyansh49/Location-Tracker/blob/master/ViewAnotherLocation.jpg" alt="ViewAnotherLocation" width="250" height="400"> <img src="https://github.com/divyansh49/Location-Tracker/blob/master/MapActivity.jpg" alt="MapActivity" width="250" height="400">
